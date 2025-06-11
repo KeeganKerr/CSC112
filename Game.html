@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Number Game</title>
+  <style>
+    /* Style the page for a clean layout */
+    body {
+      background-color: bisque;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    button {
+      color: crimson;
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Click to Play</h1>
+
+  <!-- Button that triggers the game when clicked -->
+  <button onclick="playGame()">Click Me</button>
+
+  <!-- Area to display the game result -->
+  <div id="result"></div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="game.js"></script>
+</body>
+</html>

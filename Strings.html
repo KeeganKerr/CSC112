@@ -1,0 +1,55 @@
+<!--
+Author: [Your Name Here]
+Filename: strings.html
+Description: Minimal form with string validations and external JS file
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata and page title -->
+    <meta charset="UTF-8">
+    <title>String Form</title>
+
+    <!-- Simple styles for layout and spacing -->
+    <style>
+        body {
+            font-family: sans-serif; /* Use default sans-serif font */
+            display: flex; /* Center form horizontally */
+            justify-content: center; /* Center form horizontally */
+            align-items: center; /* Center form vertically */
+            height: 100vh; /* Take full vertical height */
+            margin: 0; /* Remove default margins */
+        }
+        input, button {
+            margin: 5px; /* Add spacing between inputs/buttons */
+            padding: 6px; /* Inner spacing for inputs/buttons */
+        }
+        .message {
+            margin-top: 10px; /* Space above the message */
+            color: rgb(255, 0, 0); /* Default message color (error) */
+        }
+    </style>
+</head>
+<body>
+    <!-- Form container -->
+    <div>
+        <!-- Input for first name -->
+        <input id="firstName" placeholder="First Name">
+
+        <!-- Input for last name -->
+        <input id="lastName" placeholder="Last Name">
+
+        <!-- Input for zip code -->
+        <input id="zipCode" placeholder="Zip Code">
+
+        <!-- Button to trigger validation function -->
+        <button onclick="validateInput()">Submit</button>
+
+        <!-- Div to show result or error messages -->
+        <div class="message" id="message"></div>
+    </div>
+
+    <!-- Include external JavaScript file -->
+    <script src="User input.js"></script>  
+</body>
+</html>

@@ -38,3 +38,8 @@ function moveImage() {
 
   img.style.left = randomX + 'px';
   img.style.top = randomY + 'px';}
+
+  function clickSound(){
+    var sound = document.getElementById('audio');
+    sound.play();
+  }

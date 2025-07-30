@@ -38,7 +38,7 @@ function moveImage() {
 
   img.style.left = randomX + 'px';
   img.style.top = randomY + 'px';}
-
+// Makes the audio play when the sound button is clicked
   function clickSound(){
     var sound = document.getElementById('audio');
     sound.play();
